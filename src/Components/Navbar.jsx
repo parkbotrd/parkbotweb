@@ -22,7 +22,7 @@ export default function App() {
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/#main">Invite</Nav.Link>
                     <NavDropdown title="더보기" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/tos">Terns of Service</NavDropdown.Item>
+                        <NavDropdown.Item href="/tos">Terms of Service</NavDropdown.Item>
                         <NavDropdown.Item href="/privacy">Privacy</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/docs/sla">SLA</NavDropdown.Item>
