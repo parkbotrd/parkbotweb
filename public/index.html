@@ -43,14 +43,17 @@
     -->
     <script>
       function isIE() {
-       ua = navigator.userAgent;
-       /* MSIE used to detect old browsers and Trident used to newer ones*/
-       var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+        ua = navigator.userAgent;
+        /* MSIE used to detect old browsers and Trident used to newer ones*/
+        var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+        return is_ie;
+      }
      
-       return is_ie; 
-     }
-     
-     if(isIE()) window.location.assign('/ie.html')
-     </script>
+      if(isIE()) window.location.assign('/ie.html')
+      
+      if(window.location.protocol != 'https:') {
+         location.href =   location.href.replace("http://", "https://");
+      }
+    </script>
   </body>
 </html>
