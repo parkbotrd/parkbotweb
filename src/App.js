@@ -7,7 +7,8 @@ import Introducing from './Components/Introducing.jsx'
 import Information from './Components/Information.jsx'
 import Docs from './Components/Docs.jsx'
 import Footer from './Components/Footer.jsx'
-import Black from './Components/Black.jsx'
+// import Black from './Components/Black.jsx'
+import Navbar from './Components/Navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -27,6 +28,7 @@ function NotFound() {
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route path="/docs/:name">
           <Docs />
@@ -38,7 +40,7 @@ function App() {
           <Tos />
         </Route>
         <Route exact path="/">
-          <Black />
+          {/*<Black />*/}
           <Main />
           <Introducing />
           <Information />
