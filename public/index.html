@@ -52,8 +52,10 @@
       if(isIE()) window.location.assign('/ie.html')
       
       if(window.location.protocol != 'https:') {
-          if(window.location.includes('localhost')) return
-          location.href =   location.href.replace("http://", "https://");
+          if(window.location.includes('localhost')) {
+            return
+          }
+          location.href = location.href.replace("http://", "https://");
       }
     </script>
   </body>
