@@ -8,7 +8,7 @@ import {
 
 function MyVerticallyCenteredModal(props) {
     const redirect = () => {
-      window.location.href = 'https://discord.com/oauth2/authorize?client_id=530171799980212244&permissions=8&scope=bot'
+      window.location.href = 'https://discord.com/oauth2/authorize?client_id=530171799980212244&permissions=8&scope=bot&scope=applications.commands'
     }
     
     return (
@@ -30,10 +30,12 @@ function MyVerticallyCenteredModal(props) {
             <Link to="/tos">이용약관</Link>
             <br />
             <Link to="/privacy">개인정보 처리방침</Link>
+            <br />
+            <Link to="/docs/transfer-of-personal-information-abroad">개인정보 국외 이전 동의</Link>
           </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={redirect}>동의합니다.</Button>
+          <Button onClick={redirect}>나는 위 3개의 약관을 모두 주의 깊게 읽어 보았고, 이를 읽지 않거나 오해해서(또는 이에 국한되지 않음) 생긴 불이익은 내가 감수할것이며 위 내용에 동의 합니다.</Button>
         </Modal.Footer>
       </Modal>
     );
