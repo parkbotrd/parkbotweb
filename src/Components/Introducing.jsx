@@ -97,6 +97,82 @@ export default function Main() {
                 </CardActionArea>
             </Card>
 
+            <Card className={classes.root} onClick={goto} style={{ marginTop: '30px', width: '30vw' }}>
+                <CardActionArea>
+                    <CardMedia
+                        className={classes.media}
+                        image="https://cuteyoru.cdn3.cafe24.com/allin.png"
+                        title="중독성 있는 도박"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            중독성 있는 도박
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            파크봇의 포인트를 이용해 올인 등의 도박을 즐기실 수 있습니다
+                            <br />이렇게 모은 포인트를 이용해 무료로 프리미엄을 구매하실수도 있어요.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+            <Card className={classes.root} onClick={goto} style={{ marginTop: '30px', width: '30vw' }}>
+                <CardActionArea>
+                    <CardMedia
+                        className={classes.media}
+                        image="https://cuteyoru.cdn3.cafe24.com/season.png"
+                        title="시즌별 이벤트"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            시즌별 이벤트
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            크리스마스에는 포인트를 조금 더,
+                            <br />여름에는 홈페이지를 여름 느낌나게,
+                            <br />계절에 따라 달라지는 봇과 홈페이지를 통해 계절을 즐겨보세요.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+            <Card className={classes.root} onClick={goto} style={{ marginTop: '30px', width: '30vw' }}>
+                <CardActionArea>
+                    <CardMedia
+                        className={classes.media}
+                        image="https://cuteyoru.cdn3.cafe24.com/hangang.png"
+                        title="음악 뿐만 아니라"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            음악 뿐만 아니라...
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            한강, 날씨 등등 생활에 필요한 기능들을 이용하실 수 있어요.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
+            <Card className={classes.root} onClick={goto} style={{ marginTop: '30px', width: '30vw' }}>
+                <CardActionArea>
+                    <CardMedia
+                        className={classes.media}
+                        image="https://cuteyoru.cdn3.cafe24.com/sla.png"
+                        title="SLA"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            디스코드 봇들중 거의 유일한 SLA
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            SLA를 통해 장애가 발생할 경우 적절한 보상을 지급해요.
+                            <br />정확한 기준이 없어서 봇 개발자랑 다투지 마세요.
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+
             <StyledButton style={{ marginTop: '50px' }} onClick={goto}>
                 남들보다 더 빨리 초대하세요.
             </StyledButton>

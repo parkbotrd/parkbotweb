@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+nav {
+  position: fixed;
+  top: 0 ;
+  width: 100%;
+}
+
 .black {
   min-height: 47px;
   font-size: 27px;
@@ -22,12 +28,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-height: 97vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   font-size: calc(10px + 2vmin);
 }
 
@@ -44,10 +50,10 @@
 }
 
 .App-info {
-  background-image: url("https://cuteyoru.cdn3.cafe24.com/evening.jpg");
+  background-image: url("https://cuteyoru.cdn3.cafe24.com/christmas-market-4705882_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 1377px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,10 +63,10 @@
 }
 
 .App-intro {
-  background-image: url("https://cuteyoru.cdn3.cafe24.com/library.jpg");
+  background-image: url("https://cuteyoru.cdn3.cafe24.com/mosque-279015.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 1700px;
+  min-height: 3500px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -24,7 +24,7 @@ return (
         </MDBContainer>
         <div className="footer-copyright text-center py-3">
             <MDBContainer fluid>
-                &copy; {new Date().getFullYear()} 파크봇, 모든 권리 보유
+                &copy; {new Date().getFullYear()} 파크봇, 모든 권리 보유.<br /><p style={{ fontSize: '10px' }}>이미지: Pixabay</p>
             </MDBContainer>
         </div>
     </MDBFooter>
