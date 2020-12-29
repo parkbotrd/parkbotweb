@@ -16,7 +16,7 @@ export default function App() {
     return (
         <nav>
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">파크봇</Navbar.Brand>
+            <Navbar.Brand href="/">파크봇</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

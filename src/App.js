@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css'
-import Privacy from './Components/Privacy.jsx'
-import Tos from './Components/Tos.jsx'
-import Main from './Components/Main.jsx'
-import Introducing from './Components/Introducing.jsx'
-import Information from './Components/Information.jsx'
-import Docs from './Components/Docs.jsx'
-import Footer from './Components/Footer.jsx'
-// import Black from './Components/Black.jsx'
-import Navbar from './Components/Navbar.jsx'
+import Privacy from './Pages/Privacy.jsx'
+import Tos from './Pages/Tos.jsx'
+import Main from './Pages/Main.jsx'
+import Introducing from './Pages/Introducing.jsx'
+import Information from './Pages/Information.jsx'
+import Docs from './Pages/Docs.jsx'
+import Footer from './Pages/Footer.jsx'
+import Invite from './Pages/Invite'
+import CInvite from './Pages/CInvite'
+import SInvite from './Pages/SInvite'
+// import Black from './Pages/Black.jsx'
+import Navbar from './Pages/Navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -39,11 +42,22 @@ function App() {
         <Route path="/Tos">
           <Tos />
         </Route>
+        <Route path="/invite/recommend">
+          <Invite />
+        </Route>
+        <Route path="/invite/custom">
+          <CInvite />
+        </Route>
+        <Route path="/invite/success">
+          <SInvite />
+        </Route>
+        <Route path="/info">
+          <Information />
+        </Route>
         <Route exact path="/">
           {/*<Black />*/}
           <Main />
           <Introducing />
-          <Information />
         </Route>
         <Route component={NotFound}></Route>
       </Switch>
