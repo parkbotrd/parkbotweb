@@ -36,7 +36,6 @@ class Introducing extends React.Component {
     render() {
         return (
             <div id="info" className="App-info">
-                <p style={{ fontSize: '50px', color: 'white' }}><span role="img" aria-label="tree">🎄</span> Merry Christmas!</p>
                 <Card style={{ width: '18rem', marginTop: '17px' }}>
                     <Card.Body>
                         <Card.Title>❤ 현재 상태</Card.Title>

@@ -10,6 +10,7 @@ import Footer from './Pages/Footer.jsx'
 import Invite from './Pages/Invite'
 import CInvite from './Pages/CInvite'
 import SInvite from './Pages/SInvite'
+import Premium from './Pages/Premium'
 // import Black from './Pages/Black.jsx'
 import Navbar from './Pages/Navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,8 +40,11 @@ function App() {
         <Route path="/privacy">
           <Privacy />
         </Route>
-        <Route path="/Tos">
+        <Route path="/tos">
           <Tos />
+        </Route>
+        <Route path="/premium">
+          <Premium />
         </Route>
         <Route path="/invite/recommend">
           <Invite />

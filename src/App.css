@@ -29,18 +29,31 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-height: 100vh;
-  background-color: #2C2F33;
+  min-height: 87vh;
+  background-color: #282a2e;
   display: flex;
   align-items: center;
   justify-content: center;
-
   color: white;
   font-size: calc(10px + 2vmin);
 }
 
+
+.App-premium {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 97vh;
+  background-color: #282a2e;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: calc(10px + 2vmin);
+}
+
 .App-docs {
-  min-height: 100vh;
+  min-height: 97vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +62,7 @@ nav {
 }
 
 .App-info {
-  background-image: url("https://cuteyoru.cdn3.cafe24.com/christmas-market-4705882_1920.jpg");
+  background-image: url("https://cuteyoru.cdn3.cafe24.com/season.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 1377px;
@@ -73,11 +86,11 @@ nav {
 }
 
 .App-invite {
-  min-height: 100vh;
+  min-height: 97vh;
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: #2C2F33;
+  background-color: #282a2e;
   color: whitesmoke;
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -85,7 +98,7 @@ nav {
 .container{
   position: relative;
   width: 1100px;
-  min-height: 2370px;
+  min-height: 2570px;
 }
 
 .footer-copyright {

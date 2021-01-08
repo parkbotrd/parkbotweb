@@ -14,7 +14,6 @@ var search = () => {
 
 export default function App() {
     return (
-        <nav>
         <Navbar bg="light" expand="lg">
             <Navbar.Brand href="/">파크봇</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,6 +21,7 @@ export default function App() {
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/#main">Invite</Nav.Link>
+                    <Nav.Link href="/premium">Premium</Nav.Link>
                     <NavDropdown title="더보기" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/tos">Terms of Service</NavDropdown.Item>
                         <NavDropdown.Item href="/privacy">Privacy</NavDropdown.Item>
@@ -35,6 +35,5 @@ export default function App() {
                 </Form>
             </Navbar.Collapse>
         </Navbar>
-        </nav>
     )
 }

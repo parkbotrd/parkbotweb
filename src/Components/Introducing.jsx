@@ -16,7 +16,7 @@ return (
         <div className="margin">
             <img src={imgurl} align={align} alt={alt} style={{ maxWidth: "700px" }} />
             <p align={align === "right" ? "left" : "right"} className="inb bold">{title}</p>
-            <p className="inm" align={align === "right" ? "left" : "right"}>{desc}<br />{nd}{st ? <br /> : ""}{st}</p>
+            <p className="inm" align={align === "right" ? "left" : "right"} style={{ color: 'gray' }}>{desc}<br />{nd}{st ? <br /> : ""}{st}</p>
         </div>
     </div>
 );
