@@ -14,7 +14,7 @@ function App() {
   const Paddle = window.Paddle;
 
   const openCheckout = () => {
-    document.getElementById("notice").innerHTML = '결제를 완료해 주세요.'
+    // document.getElementById("notice").innerHTML = '결제를 완료해 주세요.'
     document.getElementById("button_buy_usd").innerHTML = '결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)'
     // document.getElementById("button_buy_krw").innerHTML = 'KRW 2100결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)'
     Paddle.Checkout.open({ 
@@ -43,7 +43,7 @@ function App() {
             <br />
             이메일의 절차를 따른 후에는 <code>#premium</code>커맨드로 프리미엄이 정상적으로 추가되었는지 확인해주시고, 프리미엄이 추가되지 않았다면 support@parkbot.ml로 문의해주세요.
             <br />
-            또한, 해당 상품은 <bold>정기결제</bold> 상품입니다. 매달 이메일로 간 링크를 클릭해야합니다. 정기결제 취소는 Paddle에서 진행하실 수 있습니다.
+            또한, 해당 상품은 <bold>정기결제</bold> 상품입니다. 매달 이메일로 간 코드를 <a href="https://parkbot.ml/active">https://parkbot.ml/active</a>에 입력해야합니다. 정기결제 취소는 Paddle에서 진행하실 수 있습니다.
           `
         })
       },

@@ -38,6 +38,17 @@ nav {
   font-size: calc(10px + 2vmin);
 }
 
+.App-active {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 97vh;
+  background-color: #282a2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
 .App-premium {
   background-repeat: no-repeat;
