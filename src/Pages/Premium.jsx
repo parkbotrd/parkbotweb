@@ -18,7 +18,7 @@ function App() {
     document.getElementById("button_buy_usd").innerHTML = '결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)'
     // document.getElementById("button_buy_krw").innerHTML = 'KRW 2100결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)'
     Paddle.Checkout.open({ 
-      product: 578358,
+      product: 619708,
       email: Email,
       successCallback: (data, err) => {
         document.getElementById("button_buy_usd").innerHTML = '2700₩/월'
