@@ -36,20 +36,20 @@ function tryToAttach() {
   window.Paddle.Setup({ vendor: 30146 });
 }
 
+function isIE() {
+  let ua = navigator.userAgent;
+  /* MSIE used to detect old browsers and Trident used to newer ones*/
+  let is_ie = ua.indexOf('MSIE ') > -1 || ua.indexOf('Trident/') > -1;
+  return is_ie;
+}
+
 function App() {
   lazy(() => import('./Assets/JS/ad375d374e'));
-  lazy(() => tryToAttach());
-
-  function isIE() {
-    let ua = navigator.userAgent;
-    /* MSIE used to detect old browsers and Trident used to newer ones*/
-    let is_ie = ua.indexOf('MSIE ') > -1 || ua.indexOf('Trident/') > -1;
-    return is_ie;
-  }
+  lazy(tryToAttach);
 
   if (isIE()) window.location.assign('/ie.html');
 
-  if (window.location.protocol != 'https:') {
+  if (window.location.protocol !== 'https:') {
     if (!window.location.href.includes('localhost')) {
       window.location.href = window.location.href.replace('http://', 'https://');
     }

@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { Card, Button } from 'react-bootstrap';
 
 import SeasonWebP from '../Assets/WebP/season.webp';
+import SeasonPNG from '../Assets/PNG/season.png';
 
 let goto = () => {
   document.getElementById('main').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
@@ -23,21 +24,24 @@ class Introducing extends React.Component {
   async renderAll() {
     // let guildId = window.location.href.replace(/[^0-9]/g,'').replace(3000, "")
     try {
-      let res = await fetch('https://api.parkbot.ml/api').then(r => r.json());
-      console.log(res);
+      let { status, guilds, users } = await fetch('https://api.parkbot.ml/api').then(r => r.json());
+      console.log({ status, guilds, users });
       this.setState({
-        status: res.status,
-        guilds: res.guilds,
-        users: res.users
+        status,
+        guilds,
+        users
       });
     } catch (err) {
-      console.log(err);
+      console.error(err);
     }
   }
 
   render() {
     return (
-      <div id="info" style={{ backgroundImage: SeasonWebP }} className="App-info">
+      <div id="info" style={{ backgroundImage: SeasonWebP }} onError={e => {
+        e.onerror = null;
+        e.style['background-image'] = SeasonPNG;
+      }} className="App-info">
         <Card style={{ width: '18rem', marginTop: '17px' }}>
           <Card.Body>
             <Card.Title>❤ 현재 상태</Card.Title>

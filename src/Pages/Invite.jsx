@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap';
 
 /*function MyVerticallyCenteredModal(props) {
     const redirect = () => {
@@ -34,9 +34,7 @@ import { Button } from 'react-bootstrap'
     );
 }*/
 
-const redirect = (uri) => {
-  window.location.href = uri
-}
+const redirect = (uri) => window.location.href = uri;
 
 export default function Main() {
   return (
@@ -44,9 +42,9 @@ export default function Main() {
       <header className="center">
         <h1 className="bold" style={{ fontSize: '51px' }}>
           <bold>파크봇</bold>을 선택해주셔서 감사합니다
-                </h1>
+        </h1>
         <p>이곳은 추천 권한 초대에요. 커스텀 권한으로 초대하고 싶다면 <a href="/invite/custom">여기를</a> 눌러주세요.
-                <br />
+          <br />
                 아래의 버튼을 누르게 되면 파크봇의 <a href="/tos">이용약관</a> 및 <a href="/tos">개인정보 처리방침</a>에 동의하게 됩니다.</p>
 
         <Button
@@ -56,5 +54,5 @@ export default function Main() {
         ><i className="fab fa-discord"></i> 추천 권한으로 초대하기</Button>
       </header>
     </div>
-  )
+  );
 }

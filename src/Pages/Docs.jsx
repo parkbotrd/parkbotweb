@@ -18,13 +18,13 @@ class Docs extends React.Component {
   async renderAll() {
     // let guildId = window.location.href.replace(/[^0-9]/g,'').replace(3000, "")
     try {
-      let res = await fetch(`https://api.parkbot.ml/docs/${this.props.match.params.name}`).then(r => r.json());
-      console.log(res);
+      let { docs } = await fetch(`https://api.parkbot.ml/docs/${this.props.match.params.name}`).then(r => r.json());
+      console.log({ docs });
       this.setState({
-        docs: res.docs
+        docs
       });
     } catch (err) {
-      console.log(err);
+      console.error(err);
     }
   }
 
