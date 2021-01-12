@@ -3,7 +3,6 @@ import { withRouter } from 'react-router-dom';
 import { Card, Button } from 'react-bootstrap';
 
 import SeasonWebP from '../Assets/WebP/season.webp';
-import SeasonPNG from '../Assets/PNG/season.png';
 
 let goto = () => {
   document.getElementById('main').scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
@@ -38,10 +37,7 @@ class Introducing extends React.Component {
 
   render() {
     return (
-      <div id="info" style={{ backgroundImage: SeasonWebP }} onError={e => {
-        e.onerror = null;
-        e.style['background-image'] = SeasonPNG;
-      }} className="App-info">
+      <div id="info" style={{ backgroundImage: SeasonWebP }} className="App-info">
         <Card style={{ width: '18rem', marginTop: '17px' }}>
           <Card.Body>
             <Card.Title>❤ 현재 상태</Card.Title>
