@@ -1,0 +1,1 @@
+export default {"SNOWPACK_PUBLIC_VERSION":"0.1.0","SNOWPACK_PUBLIC_HASH":"acd549fc5bfce73406d47294cd88222f427a2a98","SNOWPACK_PUBLIC_BRANCH":"perf-1","MODE":"production","NODE_ENV":"production","SSR":false};

@@ -1,0 +1,927 @@
+{
+  "inputs": {
+    "ie.html.inline.0.css": {
+      "bytes": 400,
+      "imports": []
+    },
+    "web_modules/common/_commonjsHelpers-798ad6a7.js": {
+      "bytes": 885,
+      "imports": []
+    },
+    "web_modules/common/index-f859b2f5.js": {
+      "bytes": 8631,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        }
+      ]
+    },
+    "web_modules/react.js": {
+      "bytes": 248,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "web_modules/common/index-d84f53a3.js": {
+      "bytes": 127512,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "web_modules/react-dom.js": {
+      "bytes": 204,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/index-d84f53a3.js"
+        },
+        {
+          "path": "web_modules/common/index-d84f53a3.js"
+        }
+      ]
+    },
+    "_dist_/App.css": {
+      "bytes": 3019,
+      "imports": []
+    },
+    "web_modules/common/inheritsLoose-65d6672a.js": {
+      "bytes": 3185,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        }
+      ]
+    },
+    "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js": {
+      "bytes": 6111,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        }
+      ]
+    },
+    "web_modules/react-router-dom.js": {
+      "bytes": 63966,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        }
+      ]
+    },
+    "web_modules/common/TransitionGroupContext-ce8275a3.js": {
+      "bytes": 148,
+      "imports": [
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "web_modules/react-bootstrap.js": {
+      "bytes": 211274,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/index-d84f53a3.js"
+        },
+        {
+          "path": "web_modules/common/TransitionGroupContext-ce8275a3.js"
+        }
+      ]
+    },
+    "web_modules/react-showdown.js": {
+      "bytes": 407588,
+      "imports": [
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Privacy.js": {
+      "bytes": 1551,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-router-dom.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "web_modules/react-showdown.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Tos.js": {
+      "bytes": 1522,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-router-dom.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "web_modules/react-showdown.js"
+        }
+      ]
+    },
+    "web_modules/bootstrap/dist/css/bootstrap.min.css": {
+      "bytes": 160392,
+      "imports": []
+    },
+    "_dist_/Pages/Main.js": {
+      "bytes": 2314,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "web_modules/bootstrap/dist/css/bootstrap.min.css"
+        }
+      ]
+    },
+    "_dist_/Components/Introducing.js": {
+      "bytes": 1310,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        }
+      ]
+    },
+    "_dist_/Assets/WebP/help.webp.proxy.js": {
+      "bytes": 47,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/help.jpg.proxy.js": {
+      "bytes": 54,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/allin.webp.proxy.js": {
+      "bytes": 48,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/allin.png.proxy.js": {
+      "bytes": 55,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/season.webp.proxy.js": {
+      "bytes": 49,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/season.png.proxy.js": {
+      "bytes": 56,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/hangang.webp.proxy.js": {
+      "bytes": 50,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/hangang.png.proxy.js": {
+      "bytes": 57,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/play.webp.proxy.js": {
+      "bytes": 47,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/play.gif.proxy.js": {
+      "bytes": 54,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/support.webp.proxy.js": {
+      "bytes": 50,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/support.png.proxy.js": {
+      "bytes": 57,
+      "imports": []
+    },
+    "_dist_/Assets/WebP/sla.webp.proxy.js": {
+      "bytes": 46,
+      "imports": []
+    },
+    "_dist_/Assets/Alternatives/sla.png.proxy.js": {
+      "bytes": 53,
+      "imports": []
+    },
+    "_dist_/Pages/Introducing.js": {
+      "bytes": 7315,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "_dist_/Components/Introducing.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/help.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/help.jpg.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/allin.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/allin.png.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/season.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/season.png.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/hangang.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/hangang.png.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/play.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/play.gif.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/support.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/support.png.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/sla.webp.proxy.js"
+        },
+        {
+          "path": "_dist_/Assets/Alternatives/sla.png.proxy.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Information.js": {
+      "bytes": 2953,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-router-dom.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "_dist_/Assets/WebP/season.webp.proxy.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Docs.js": {
+      "bytes": 1509,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-router-dom.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "web_modules/react-showdown.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Footer.js": {
+      "bytes": 1780,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Invite.js": {
+      "bytes": 1855,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "_dist_/Pages/CInvite.js": {
+      "bytes": 1908,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "_dist_/Pages/SInvite.js": {
+      "bytes": 1038,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "web_modules/common/defaultTheme-b12fbe77.js": {
+      "bytes": 137809,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/styles.js": {
+      "bytes": 510,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        }
+      ]
+    },
+    "web_modules/common/withStyles-dc14c850.js": {
+      "bytes": 4078,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/Card.js": {
+      "bytes": 2927,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/withStyles-dc14c850.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/CardActions.js": {
+      "bytes": 1434,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/withStyles-dc14c850.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/CardContent.js": {
+      "bytes": 1230,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/withStyles-dc14c850.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        }
+      ]
+    },
+    "web_modules/common/capitalize-6254984b.js": {
+      "bytes": 504,
+      "imports": [
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/Button.js": {
+      "bytes": 46470,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/withStyles-dc14c850.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        },
+        {
+          "path": "web_modules/common/index-d84f53a3.js"
+        },
+        {
+          "path": "web_modules/common/TransitionGroupContext-ce8275a3.js"
+        },
+        {
+          "path": "web_modules/common/capitalize-6254984b.js"
+        }
+      ]
+    },
+    "web_modules/@material-ui/core/Typography.js": {
+      "bytes": 6342,
+      "imports": [
+        {
+          "path": "web_modules/common/inheritsLoose-65d6672a.js"
+        },
+        {
+          "path": "web_modules/common/defaultTheme-b12fbe77.js"
+        },
+        {
+          "path": "web_modules/common/_commonjsHelpers-798ad6a7.js"
+        },
+        {
+          "path": "web_modules/common/index-f859b2f5.js"
+        },
+        {
+          "path": "web_modules/common/withStyles-dc14c850.js"
+        },
+        {
+          "path": "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js"
+        },
+        {
+          "path": "web_modules/common/capitalize-6254984b.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Active.js": {
+      "bytes": 6351,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/styles.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/Card.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/CardActions.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/CardContent.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/Button.js"
+        },
+        {
+          "path": "web_modules/@material-ui/core/Typography.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Premium.js": {
+      "bytes": 6878,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-bootstrap.js"
+        }
+      ]
+    },
+    "_dist_/Pages/Navbar.js": {
+      "bytes": 1859,
+      "imports": [
+        {
+          "path": "web_modules/react-bootstrap.js"
+        },
+        {
+          "path": "web_modules/react.js"
+        }
+      ]
+    },
+    "_dist_/Assets/JS/ad375d374e.js": {
+      "bytes": 10069,
+      "imports": []
+    },
+    "_dist_/App.js": {
+      "bytes": 3351,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "_dist_/App.css"
+        },
+        {
+          "path": "_dist_/Pages/Privacy.js"
+        },
+        {
+          "path": "_dist_/Pages/Tos.js"
+        },
+        {
+          "path": "_dist_/Pages/Main.js"
+        },
+        {
+          "path": "_dist_/Pages/Introducing.js"
+        },
+        {
+          "path": "_dist_/Pages/Information.js"
+        },
+        {
+          "path": "_dist_/Pages/Docs.js"
+        },
+        {
+          "path": "_dist_/Pages/Footer.js"
+        },
+        {
+          "path": "_dist_/Pages/Invite.js"
+        },
+        {
+          "path": "_dist_/Pages/CInvite.js"
+        },
+        {
+          "path": "_dist_/Pages/SInvite.js"
+        },
+        {
+          "path": "_dist_/Pages/Active.js"
+        },
+        {
+          "path": "_dist_/Pages/Premium.js"
+        },
+        {
+          "path": "_dist_/Pages/Navbar.js"
+        },
+        {
+          "path": "web_modules/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "path": "web_modules/react-router-dom.js"
+        },
+        {
+          "path": "_dist_/Assets/JS/ad375d374e.js"
+        }
+      ]
+    },
+    "_dist_/serviceWorker.js": {
+      "bytes": 5086,
+      "imports": []
+    },
+    "_dist_/index.css": {
+      "bytes": 714,
+      "imports": []
+    },
+    "_dist_/index.js": {
+      "bytes": 388,
+      "imports": [
+        {
+          "path": "web_modules/react.js"
+        },
+        {
+          "path": "web_modules/react-dom.js"
+        },
+        {
+          "path": "_dist_/App.js"
+        },
+        {
+          "path": "_dist_/serviceWorker.js"
+        },
+        {
+          "path": "_dist_/index.css"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/ie.html.inline.0.css": {
+      "imports": [],
+      "inputs": {
+        "ie.html.inline.0.css": {
+          "bytesInOutput": 243
+        }
+      },
+      "bytes": 244
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "web_modules/common/_commonjsHelpers-798ad6a7.js": {
+          "bytesInOutput": 487
+        },
+        "web_modules/common/index-f859b2f5.js": {
+          "bytesInOutput": 6906
+        },
+        "web_modules/react.js": {
+          "bytesInOutput": 28
+        },
+        "web_modules/common/index-d84f53a3.js": {
+          "bytesInOutput": 124059
+        },
+        "web_modules/react-dom.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/App.css": {
+          "bytesInOutput": 0
+        },
+        "web_modules/common/inheritsLoose-65d6672a.js": {
+          "bytesInOutput": 1148
+        },
+        "web_modules/common/hoist-non-react-statics.cjs-0127ffe1.js": {
+          "bytesInOutput": 3351
+        },
+        "web_modules/react-router-dom.js": {
+          "bytesInOutput": 22558
+        },
+        "web_modules/common/TransitionGroupContext-ce8275a3.js": {
+          "bytesInOutput": 29
+        },
+        "web_modules/react-bootstrap.js": {
+          "bytesInOutput": 75338
+        },
+        "web_modules/react-showdown.js": {
+          "bytesInOutput": 197863
+        },
+        "_dist_/Pages/Privacy.js": {
+          "bytesInOutput": 835
+        },
+        "_dist_/Pages/Tos.js": {
+          "bytesInOutput": 806
+        },
+        "web_modules/bootstrap/dist/css/bootstrap.min.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/Pages/Main.js": {
+          "bytesInOutput": 1619
+        },
+        "_dist_/Components/Introducing.js": {
+          "bytesInOutput": 744
+        },
+        "_dist_/Assets/WebP/help.webp.proxy.js": {
+          "bytesInOutput": 39
+        },
+        "_dist_/Assets/Alternatives/help.jpg.proxy.js": {
+          "bytesInOutput": 46
+        },
+        "_dist_/Assets/WebP/allin.webp.proxy.js": {
+          "bytesInOutput": 40
+        },
+        "_dist_/Assets/Alternatives/allin.png.proxy.js": {
+          "bytesInOutput": 47
+        },
+        "_dist_/Assets/WebP/season.webp.proxy.js": {
+          "bytesInOutput": 41
+        },
+        "_dist_/Assets/Alternatives/season.png.proxy.js": {
+          "bytesInOutput": 48
+        },
+        "_dist_/Assets/WebP/hangang.webp.proxy.js": {
+          "bytesInOutput": 42
+        },
+        "_dist_/Assets/Alternatives/hangang.png.proxy.js": {
+          "bytesInOutput": 49
+        },
+        "_dist_/Assets/WebP/play.webp.proxy.js": {
+          "bytesInOutput": 39
+        },
+        "_dist_/Assets/Alternatives/play.gif.proxy.js": {
+          "bytesInOutput": 46
+        },
+        "_dist_/Assets/WebP/support.webp.proxy.js": {
+          "bytesInOutput": 42
+        },
+        "_dist_/Assets/Alternatives/support.png.proxy.js": {
+          "bytesInOutput": 49
+        },
+        "_dist_/Assets/WebP/sla.webp.proxy.js": {
+          "bytesInOutput": 38
+        },
+        "_dist_/Assets/Alternatives/sla.png.proxy.js": {
+          "bytesInOutput": 45
+        },
+        "_dist_/Pages/Introducing.js": {
+          "bytesInOutput": 5471
+        },
+        "_dist_/Pages/Information.js": {
+          "bytesInOutput": 1781
+        },
+        "_dist_/Pages/Docs.js": {
+          "bytesInOutput": 786
+        },
+        "_dist_/Pages/Footer.js": {
+          "bytesInOutput": 1088
+        },
+        "_dist_/Pages/Invite.js": {
+          "bytesInOutput": 1337
+        },
+        "_dist_/Pages/CInvite.js": {
+          "bytesInOutput": 1383
+        },
+        "_dist_/Pages/SInvite.js": {
+          "bytesInOutput": 658
+        },
+        "web_modules/common/defaultTheme-b12fbe77.js": {
+          "bytesInOutput": 53012
+        },
+        "web_modules/@material-ui/core/styles.js": {
+          "bytesInOutput": 115
+        },
+        "web_modules/common/withStyles-dc14c850.js": {
+          "bytesInOutput": 1144
+        },
+        "web_modules/@material-ui/core/Card.js": {
+          "bytesInOutput": 1062
+        },
+        "web_modules/@material-ui/core/CardActions.js": {
+          "bytesInOutput": 389
+        },
+        "web_modules/@material-ui/core/CardContent.js": {
+          "bytesInOutput": 314
+        },
+        "web_modules/common/capitalize-6254984b.js": {
+          "bytesInOutput": 104
+        },
+        "web_modules/@material-ui/core/Button.js": {
+          "bytesInOutput": 16718
+        },
+        "web_modules/@material-ui/core/Typography.js": {
+          "bytesInOutput": 1934
+        },
+        "_dist_/Pages/Active.js": {
+          "bytesInOutput": 3303
+        },
+        "_dist_/Pages/Premium.js": {
+          "bytesInOutput": 4899
+        },
+        "_dist_/Pages/Navbar.js": {
+          "bytesInOutput": 1038
+        },
+        "_dist_/App.js": {
+          "bytesInOutput": 1525
+        },
+        "_dist_/serviceWorker.js": {
+          "bytesInOutput": 318
+        },
+        "_dist_/index.js": {
+          "bytesInOutput": 124
+        }
+      },
+      "bytes": 535621
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/Assets/JS/ad375d374e.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_dist_/Assets/JS/ad375d374e.js": {
+          "bytesInOutput": 9844
+        }
+      },
+      "bytes": 9845
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_dist_/index.css": {
+          "bytesInOutput": 9
+        }
+      },
+      "bytes": 31
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.css": {
+      "imports": [],
+      "inputs": {
+        "_dist_/App.css": {
+          "bytesInOutput": 2216
+        },
+        "web_modules/bootstrap/dist/css/bootstrap.min.css": {
+          "bytesInOutput": 160225
+        }
+      },
+      "bytes": 162442
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_.css": {
+      "imports": [],
+      "inputs": {
+        "_dist_/index.css": {
+          "bytesInOutput": 310
+        }
+      },
+      "bytes": 629
+    }
+  }
+}
