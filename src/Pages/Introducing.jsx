@@ -120,7 +120,7 @@ export default function Main() {
             style={{
               height: 5,
               backgroundColor: 'gray',
-              marginTop: 27
+              marginTop: 107
             }}
           />
         </div>

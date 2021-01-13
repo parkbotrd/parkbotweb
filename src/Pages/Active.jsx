@@ -41,18 +41,20 @@ export default function Active() {
 
   const checkActivecode = async () => {
     // eslint-disable-next-line
-    if (Activecode.length !== '36') return ActiveShow()
+    if (Activecode.split(' ').join('').length !== 36) return ActiveShow()
+    const reA = /^[0-9 | a-z]{8}-[0-9 | a-z]{4}-[0-9 | a-z]{4}-[0-9 | a-z]{4}-[0-9 | a-z]{12}$/
+    if (!reA.test(Activecode)) return ActiveShow();
     const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userid: Userid, code: Activecode })
     };
-    const { message } = await fetch('https://api.parkbot.ml/premium/activation', requestOptions).then(res => res.json());
+    const { message } = await fetch(`https://api.parkbot.ml/premium/activation?fakecode=${new Date/1}`, requestOptions).then(res => res.json());
     setresponseResult(message);
     ResultShow();
   };
 
-  const activecode = e => setActivecode(e.target.value);
+  const activecode = qe => setActivecode(qe.target.value);
 
   const checkUserid = () => {
     // eslint-disable-next-line
@@ -63,7 +65,6 @@ export default function Active() {
 
   const userid = (e) => {
     setUserid(e.target.value);
-    console.log(e.target.value, Userid);
   };
 
   return (

@@ -17,17 +17,12 @@ function App() {
   const { Paddle } = window;
 
   const openCheckout = () => {
-    // document.getElementById("notice").innerHTML = '결제를 완료해 주세요.'
     setContent('결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)');
-    // document.getElementById("button_buy_krw").innerHTML = 'KRW 2100결제 대기중\n(결제가 시작되지 않는다면 다시 클릭)'
     Paddle.Checkout.open({
       product: 619708,
       email: Email,
       successCallback: data => {
         setContent('2700₩/월');
-        // document.getElementById("button_buy_krw").innerHTML = ''
-        //document.getElementById("email").style.width ='0px'
-        //document.getElementById("email").style.height ='0px'
         let checkoutId = data.checkout.id;
 
         Paddle.Order.details(checkoutId, orderDetails => {
@@ -39,7 +34,6 @@ function App() {
         });
       },
       closeCallback: () => {
-        // document.getElementById("notice").innerHTML = '결제가 취소되었습니다.'
         setContent('결제 다시 시작하기');
       }
     });

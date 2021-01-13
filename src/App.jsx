@@ -30,12 +30,6 @@ function NotFound() {
   );
 }
 
-function tryToAttach() {
-  if (!window.Paddle) setTimeout(tryToAttach, 500);
-
-  window.Paddle.Setup({ vendor: 30146 });
-}
-
 function isIE() {
   let ua = navigator.userAgent;
   /* MSIE used to detect old browsers and Trident used to newer ones*/
@@ -44,9 +38,7 @@ function isIE() {
 }
 
 function App() {
-  lazy(() => import('./Assets/JS/ad375d374e'));
-  lazy(tryToAttach);
-
+  lazy(() => import('./Assets/JS/ad375d374e.js'));
   if (isIE()) window.location.assign('/ie.html');
 
   if (window.location.protocol !== 'https:') {
