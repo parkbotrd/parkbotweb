@@ -132,3 +132,5 @@ database.js
 
 api/
 fake/
+.vercel
+build/
