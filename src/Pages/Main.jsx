@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button } from "@chakra-ui/react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useHistory } from 'react-router-dom';
 //import {
@@ -16,41 +16,26 @@ export default function Main() {
   return (
     <div id="main" className="App App-main">
       <header>
-        <h1 className="bold arr">
-          파크봇과 함께 멋지고, 웅장하고, 있어보이는 디스코드 서버를 만들어보세요.
-        </h1>
-
-        <h1 className="mt10 mdtext">
-          한국어 디스코드 뮤직봇, 파크봇과 함께 서버 유저들에게 음악을 선물해보세요.
+        <h1 className="arr">
+          한국어 디스코드 뮤직봇,
+          <div className="empha">파크봇</div>
         </h1>
 
         <Button
-          variant="primary"
-          className="nanum margin"
+          colorScheme="twitter"
+          size="lg"
+          className=" margin"
           onClick={() => history.push('/invite/recommend')}
-        ><i className="fab fa-discord"></i> 자신의 서버로 초대하기</Button>
+        ><i className="fab fa-discord"></i>&nbsp;<p>내 서버에 초대하기</p></Button>
 
         <Button
-          variant="success"
+          variant="outline"
+          colorScheme="twitter"
+          size="lg"
           className="nanum margin"
           style={{ marginLeft: '13px' }}
           onClick={detailView}
-        ><i className="fas fa-terminal"></i> 특징들</Button>
-
-        <Button
-          variant="secondary"
-          className="nanum margin"
-          style={{ marginLeft: '13px' }}
-          onClick={() => history.push('/info')}
-        ><i className="fas fa-signal"></i> 봇의 상태 보기</Button>
-
-        <Button
-          variant="light"
-          className="nanum margin"
-          style={{ marginLeft: '13px' }}
-          onClick={() => history.push('https://discord.gg/jE33mfD')}
-        ><i className="fas fa-signal"></i> 서포트 서버 참가하기</Button>
-
+        ><i className="fas fa-terminal"></i>&nbsp; 특징들</Button>
         {/*<ScrollDownIndicator onClick={detailView} />*/}
       </header>
     </div>

@@ -18,8 +18,8 @@ class Docs extends React.Component {
   async renderAll() {
     // let guildId = window.location.href.replace(/[^0-9]/g,'').replace(3000, "")
     try {
-      let { docs } = await fetch(`https://api.parkbot.ml/docs/${this.props.match.params.name}`).then(r => r.json());
-      console.log({ docs });
+      var { docs } = await fetch(`https://api.parkbot.ml/docs/${this.props.match.params.name}`).then(r => r.json());
+      var docs = docs.replace('# 원하시는 문서를 찾을 수 없어요.', '').replace('대신 아래', '아래')
       this.setState({
         docs
       });

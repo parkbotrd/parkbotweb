@@ -1,4 +1,5 @@
 import React, { lazy } from 'react';
+import { ChakraProvider } from "@chakra-ui/react";
 import './App.css';
 import Privacy from './Pages/Privacy.jsx';
 import Tos from './Pages/Tos.jsx';
@@ -9,6 +10,7 @@ import Docs from './Pages/Docs.jsx';
 import Footer from './Pages/Footer.jsx';
 import Invite from './Pages/Invite';
 import CInvite from './Pages/CInvite';
+import Commands from './Pages/Commands'
 import SInvite from './Pages/SInvite';
 import Active from './Pages/Active';
 import Premium from './Pages/Premium';
@@ -48,11 +50,18 @@ function App() {
   }
 
   return (
+    <ChakraProvider>
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/docs/:name">
+        <Route path={"/docs/:name"}>
           <Docs />
+        </Route>
+        <Route path={"/docs"}>
+          <Docs />
+        </Route>
+        <Route path="/commands/:name">
+          <Commands />
         </Route>
         <Route path="/privacy">
           <Privacy />
@@ -87,6 +96,7 @@ function App() {
       </Switch>
       <Footer />
     </Router>
+    </ChakraProvider>
   );
 }
 

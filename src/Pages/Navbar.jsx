@@ -23,6 +23,7 @@ export default function App() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/docs">Docs</Nav.Link>
           <Nav.Link href="/#main">Invite</Nav.Link>
           <Nav.Link href="/premium">Premium</Nav.Link>
           <NavDropdown title="더보기" id="basic-nav-dropdown">
