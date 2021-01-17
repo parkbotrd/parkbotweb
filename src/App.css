@@ -166,3 +166,14 @@ nav {
   font-size: 77px;
   font-family: 'Do Hyeon', sans-serif;
 }
+
+.notfound {
+  min-height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  background-image: url('https://cuteyoru.cdn3.cafe24.com/404_background.gif');
+}

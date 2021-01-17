@@ -10,7 +10,6 @@ import Docs from './Pages/Docs.jsx';
 import Footer from './Pages/Footer.jsx';
 import Invite from './Pages/Invite';
 import CInvite from './Pages/CInvite';
-import Commands from './Pages/Commands'
 import SInvite from './Pages/SInvite';
 import Active from './Pages/Active';
 import Premium from './Pages/Premium';
@@ -59,9 +58,6 @@ function App() {
         </Route>
         <Route path={"/docs"}>
           <Docs />
-        </Route>
-        <Route path="/commands/:name">
-          <Commands />
         </Route>
         <Route path="/privacy">
           <Privacy />

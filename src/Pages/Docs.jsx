@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import MarkdownView from 'react-showdown';
 
 class Docs extends React.Component {
@@ -41,9 +41,6 @@ class Docs extends React.Component {
               options={{ tables: true, emoji: true }}
             />
           </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={() => window.location.href = '/'}>파크봇 초대하기</Button>
-          </Modal.Footer>
         </Modal.Dialog>
       </div>
     );
