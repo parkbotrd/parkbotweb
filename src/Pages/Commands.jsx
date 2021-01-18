@@ -2,6 +2,8 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Modal } from 'react-bootstrap';
 import MarkdownView from 'react-showdown';
+import {Container, Row, Col, Card, Form, Button } from "react-bootstrap";
+import Sidebar from '../Components/Sidebar'
 
 class Docs extends React.Component {
   constructor(props) {
@@ -32,6 +34,12 @@ class Docs extends React.Component {
   render() {
     return (
       <div className="App-docs">
+        <Container fluid>
+                <Row>
+                    <Col xs={2} id="sidebar-wrapper">      
+                      <Sidebar />
+                    </Col>
+                    <Col  xs={10} id="page-content-wrapper">
         <Modal.Dialog style={{ minWidth: '70vw' }}>
           <Modal.Header>
             <Modal.Title>{this.props.match.params.name}</Modal.Title>
@@ -43,6 +51,10 @@ class Docs extends React.Component {
             />
           </Modal.Body>
         </Modal.Dialog>
+                    </Col> 
+                </Row>
+
+            </Container>
       </div>
     );
   }

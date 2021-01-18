@@ -7,6 +7,7 @@ nav {
   top: 0 ;
   width: 100%;
 }
+
 .black {
   min-height: 47px;
   font-size: 27px;
@@ -17,7 +18,6 @@ nav {
   align-items: center;
   justify-content: center;
 }
-
 
 .App-main {
   /*background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);*/
@@ -64,6 +64,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: auto;
   color: black;
 }
 
@@ -147,6 +148,7 @@ nav {
 
 .inm {
   font-size: 23px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .nanum {
@@ -163,7 +165,16 @@ nav {
 }
 
 .arr {
-  font-size: 77px;
+  font-size: 77px !important;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.justsidebar {
+  color: black;
+}
+
+.arr2 {
+  font-size: 57px !important;
   font-family: 'Do Hyeon', sans-serif;
 }
 

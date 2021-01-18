@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
-
 
 body {
   margin: 0;
@@ -19,9 +15,19 @@ code {
 }
 
 h1 {
-  font-size: 50px
+  font-size: 39px !important;
+}
+
+h2 {
+  font-size: 30px !important;
+  margin-top: 7px;
+}
+
+h3 {
+  font-size: 20px !important;
+  margin-top: 13px;
 }
 
 a {
-  color: blue;
+  color: rgb(41, 176, 230);
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Button } from "@chakra-ui/react"
+
 import Aic from '../Components/Introducing';
 
 import HelpWebp from '../Assets/WebP/help.webp';
@@ -125,6 +127,15 @@ export default function Main() {
               marginTop: 107
             }}
           />
+
+        <Button
+          colorScheme="twitter"
+          size="lg"
+          className="nanum margin"
+          style={{ marginLeft: '13px' }}
+          align="right"
+          onClick={() => window.location.href="/commands/도움말"}
+        ><i className="fas fa-terminal"></i>&nbsp; 더 알고싶으세요? 커맨드들 확인하기</Button>
         </div>
       </div>
     </div>

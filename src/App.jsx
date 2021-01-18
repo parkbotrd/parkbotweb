@@ -1,6 +1,7 @@
 import React, { lazy } from 'react';
 import { ChakraProvider } from "@chakra-ui/react";
 import './App.css';
+import('./index.css');
 import Privacy from './Pages/Privacy.jsx';
 import Tos from './Pages/Tos.jsx';
 import Main from './Pages/Main.jsx';
@@ -9,13 +10,13 @@ import Information from './Pages/Information.jsx';
 import Docs from './Pages/Docs.jsx';
 import Footer from './Pages/Footer.jsx';
 import Invite from './Pages/Invite';
+import Commands from './Pages/Commands';
 import CInvite from './Pages/CInvite';
 import SInvite from './Pages/SInvite';
 import Active from './Pages/Active';
 import Premium from './Pages/Premium';
 // import Black from './Pages/Black.jsx'
 import Navbar from './Pages/Navbar.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -58,6 +59,9 @@ function App() {
         </Route>
         <Route path={"/docs"}>
           <Docs />
+        </Route>
+        <Route path={"/commands/:name"}>
+          <Commands />
         </Route>
         <Route path="/privacy">
           <Privacy />

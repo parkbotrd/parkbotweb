@@ -17,7 +17,7 @@ export default function App() {
   };
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="white" expand="lg" style={{ maxHeight: '57px' }}>
       <Navbar.Brand href="/">파크봇</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -25,7 +25,7 @@ export default function App() {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/docs">Docs</Nav.Link>
           <Nav.Link href="/#main">Invite</Nav.Link>
-          <Nav.Link href="/premium">Premium</Nav.Link>
+          <Nav.Link href="/commands/도움말">Commands(도움말)</Nav.Link>
           <NavDropdown title="더보기" id="basic-nav-dropdown">
             <NavDropdown.Item href="/tos">Terms of Service</NavDropdown.Item>
             <NavDropdown.Item href="/privacy">Privacy</NavDropdown.Item>
