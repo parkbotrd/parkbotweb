@@ -40,7 +40,6 @@ function isIE() {
 }
 
 function App() {
-  lazy(() => import('./Assets/JS/ad375d374e.js'));
   if (isIE()) window.location.assign('/ie.html');
 
   if (window.location.protocol !== 'https:') {
