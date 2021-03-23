@@ -69,12 +69,12 @@ function App() {
         <Route path="/tos">
           <Tos />
         </Route>
-        <Route path="/premium">
+        {/*<Route path="/premium">
           <Premium />
-        </Route>
-        <Route path="/active">
+  </Route>*/}
+        {/*<Route path="/active">
           <Active />
-        </Route>
+</Route>*/}
         <Route path="/invite/recommend">
           <Invite />
         </Route>

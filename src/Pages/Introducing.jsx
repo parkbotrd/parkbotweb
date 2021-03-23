@@ -69,7 +69,7 @@ export default function Main() {
             oc="https://parkbot.ml/docs/always"
           />
 
-          <Aic
+          {/*<Aic
             mgt={37}
             imgurl={AllinWebp}
             alturl={AllinPNG}
@@ -80,7 +80,7 @@ export default function Main() {
             nd="디스코드 안에서 친구들과 내기를 해도 좋고, 카지노 느낌을 내봐도 좋아요."
             st="금방 인싸가 되고, 분명히 많은 친구들을 만들 수 있을거에요. 한 번 써보세요, 분명히 만족할거에요."
             oc="https://parkbot.ml/docs/prepare"
-          />
+          />*/}
 
           <Aic
             mgt={97}
