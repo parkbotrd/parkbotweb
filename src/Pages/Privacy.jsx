@@ -19,7 +19,7 @@ class Docs extends React.Component {
   async renderAll() {
     // let guildId = window.location.href.replace(/[^0-9]/g,'').replace(3000, "")
     try {
-      let { data } = await fetch('https://api.parkbot.ml/tos-and-privacy/privacy').then(r => r.json());
+      let { data } = await fetch('https://api.parkbot.xyz/tos-and-privacy/privacy').then(r => r.json());
       console.log(data);
       this.setState({ data });
     } catch (err) {

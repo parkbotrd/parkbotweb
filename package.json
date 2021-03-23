@@ -53,6 +53,6 @@
     "@snowpack/plugin-react-refresh": "^2.3.9",
     "eslint": "^7.17.0",
     "eslint-plugin-react": "^7.22.0",
-    "snowpack": "^3.0.0-rc.2"
+    "snowpack": "3.0.0-rc.2"
   }
 }

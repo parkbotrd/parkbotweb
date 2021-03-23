@@ -23,7 +23,7 @@ class Introducing extends React.Component {
   async renderAll() {
     // let guildId = window.location.href.replace(/[^0-9]/g,'').replace(3000, "")
     try {
-      let { status, guilds, users } = await fetch('https://api.parkbot.ml/api').then(r => r.json());
+      let { status, guilds, users } = await fetch('https://api.parkbot.xyz/api').then(r => r.json());
       console.log({ status, guilds, users });
       this.setState({
         status,
