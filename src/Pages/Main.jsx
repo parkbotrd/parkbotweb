@@ -3,6 +3,7 @@ import { Button } from "@chakra-ui/react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Alert from 'react-bootstrap/Alert'
 import { useHistory } from 'react-router-dom';
+import Image from 'react-bootstrap/Image'
 //import {
 //    ScrollDownIndicator
 //} from 'react-landing-page'
@@ -17,9 +18,7 @@ export default function Main() {
   return (
     <div id="main" className="App App-main">
       <header>
-        <Alert variant="warning" style={{ marginTop: '-90px' }}>
-          모든 기능들을 정상적으로 이용하실 수 있습니다.
-        </Alert>
+      <Image type="button" onClick={()=>(window.location.href="/docs/aboutparkbotadsystem")} style={{ marginTop: "-10vw", maxHeight: "30vh" }} src={"https://cdn.discordapp.com/attachments/621870504726364181/838784059399208970/aboutparkbot.png"} fluid />
         <h1 className="arr">
           한국어 디스코드 뮤직봇,
           <div className="empha">파크봇</div>
