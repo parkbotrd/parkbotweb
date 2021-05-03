@@ -27,7 +27,7 @@ import SlaPNG from '../Assets/Alternatives/sla.png';
 
 export default function Main() {
   return (
-    <div style={{ backgroundColor: '#f0f0f0', paddingBottom: '42px', paddingTop: '57px' }}>
+    <div style={{ backgroundColor: '#FEFEFA', paddingBottom: '42px', paddingTop: '57px' }}>
       <div className="container">
         <div id="intro" className="App-intro">
           <p align="center" className="arr2">더 알고싶으시다면, 알려드리는게 인지상정.</p>

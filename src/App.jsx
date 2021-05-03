@@ -89,7 +89,7 @@ function App() {
         <Route exact path="/">
           {/*<Black />*/}
           <Main />
-          <Introducing />
+          {/*<Introducing />*/}
         </Route>
         <Route component={NotFound}></Route>
       </Switch>

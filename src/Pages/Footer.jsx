@@ -17,8 +17,8 @@ const FooterPage = () => {
           <Col md="6">
             <br />
             <h5 className="title">연락하기</h5>
-            <a style={{ textDecoration: 'none' }} href="https://discord.gg/jE33mfD">지원 서버 참가하기</a><br />
-            <a style={{ textDecoration: 'none' }} href="mailto:support@parkbot.ml">이메일</a>
+            <a style={{ textDecoration: 'none', color: 'aqua'  }} href="https://discord.gg/jE33mfD">지원 서버 참가하기</a><br />
+            <a style={{ textDecoration: 'none', color: 'aqua'  }} href="mailto:support@parkbot.ml">이메일</a>
           </Col>
         </Row>
       </Container>

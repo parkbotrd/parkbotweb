@@ -107,6 +107,8 @@ nav {
   color: black;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .container{
   position: relative;
   width: 1100px;
