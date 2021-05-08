@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image'
 
 /*function MyVerticallyCenteredModal(props) {
     const redirect = () => {
