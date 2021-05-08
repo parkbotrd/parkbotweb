@@ -22,6 +22,7 @@ export default function Main() {
           onClick={() => redirect('https://discord.com/oauth2/authorize?client_id=530171799980212244&permissions=0&redirect_uri=https%3A%2F%2Fparkbot.xyz%2Finvite%2Fsuccess&response_type=code&scope=bot%20identify')}
           style={{ marginLeft: '17px' }}
         ><i className="fab fa-discord"></i> 커스텀 권한으로 초대하기</Button>
+        <a target="_blank" href="//ads4.tenping.kr/image/click?ADType=N7Rxsvi2y%2f32n%2ffJXHVWaA%3d%3d"><img src="//ads4.tenping.kr/image/showbox?ADType=N7Rxsvi2y%2f32n%2ffJXHVWaA%3d%3d&ADDisplayType=1LawCE8FqKOhetXZhMopsQ%3d%3d&MemberID=yOVb3CMZmmkA5hfVggABAr%2f29t9sQvibhBCddl2J7xt8Td52Iglk%2fnRaexB89hxP" /></a>
       </header>
     </div>
   );
